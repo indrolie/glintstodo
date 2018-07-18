@@ -1,55 +1,53 @@
+<!DOCTYPE HTML>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
     <title>To Do</title>
 
 </head>
 
 <body>
-    <h1>To Do List</h1>
-    
-    <div>
-        <input type="text" list="options" placeholder="Add here...">
+    <h1 class="head">To Do</h1>
+    <div class="container">
+        <div class="form">
+            <input class="add-box" type="text" list="options" placeholder="Add here...">
             <datalist id="options">
                 <option value="Meeting">
-                    <a href="">edit</a>
+                    Meeting
                 </option>
                 <option value="Report">
-                    <a href="">edit</a>
+                    Report
                 </option>
                 <option value="Email">
-                    <a href="">edit</a>
+                    Email
                 </option>
             </datalist>
+            <div class="button">
+                <input type="image" src="images/icon-search.png">
+                <input type="image" src="images/icon-plus.png">
+            </div>
+        </div>
 
-        <a href=""><img src="images/icon-search.png" style="width:15px; height:15px"></a>
-        <a href=""><img src="images/icon-plus.png" style="width:15px; height:15px"></a>
-    </div>
-
-    <div>
-        <table>
-            <tr>
-                <td>
+        <div class="grid-container">
+            <div class="grid-item">
+                <div class="task">
+                    Tasks
+                </div>
+                <div>
                     Submit report
-                </td>
-                <td>
-                    <a href=""><img src="images/icon-close.png" style="width:15px; height:15px"></a>
-                </td>    
-            </tr>
-            <tr>
-                <td>
+                    <input type="image" src="images/icon-close.png" style="width:15px; height:15px">
+                </div>
+                <div>
                     Reply email
-                </td>
-                <td>
-                    <a href=""><img src="images/icon-close.png" style="width:15px; height:15px"></a>
-                </td>    
-            </tr>
-        </table>
+                    <input type="image" src="images/icon-close.png" style="width:15px; height:15px">
+                </div>
+            </div>
+        </div>
     </div>
 
 </body>
-
 </html>
