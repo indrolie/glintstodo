@@ -28,17 +28,40 @@ body{
 
 .add-box{
     width: 40%;
+    height: 30px;
     padding-left: 15px;
 }
 
-.button{
+#button{
     margin-left: 15px;
     word-spacing: 5px;
 }
 
-.button input{
-    width: 1.25em;
-    height: 1.25em;
+.button-search{
+    background-image: url(images/icon-search.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    outline: none;  
+}
+
+.button-plus{
+    background-image: url(images/icon-plus.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;   
+    width: 25px;
+    height: 25px;
+    outline: none;
+}
+
+.button-close{
+    background-image: url(images/icon-close.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;   
+    width: 25px;
+    height: 25px;
+    outline: none;
 }
 
 .task{
