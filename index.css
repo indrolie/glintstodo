@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     background-image: url(images/background.jpg);
     background-size: auto;
@@ -18,13 +18,13 @@ body{
     flex-direction: column;
 }
 
-.form{
+.form {
     display: flex;
     justify-content: center;
     letter-spacing: 5px;
 }
 
-.add-box{
+.add-box {
     width: 50%;
     height: 40px;
     padding-left: 15px;
@@ -32,14 +32,14 @@ body{
     outline: none;
 }
 
-#button{
+#button {
     margin-left: 15px;
     word-spacing: 5px;
     margin-top: auto;
     margin-bottom: auto;
 }
 
-.button-search{
+.button-search {
     background-image: url(images/icon-search.png);
     background-size: 17px 17px;
     background-repeat: no-repeat;
@@ -50,7 +50,7 @@ body{
     border-radius: 4px;
 }
 
-.button-add{
+.button-add {
     background-image: url(images/icon-plus.png);
     background-size: 20px 20px;
     background-repeat: no-repeat;
@@ -61,22 +61,22 @@ body{
     border-radius: 4px;
 }
 
-.button-close{
+.button-close {
     background-image: url(images/icon-close.png);
     background-size: 20px 20px;
     background-repeat: no-repeat;
-    background-position: center;   
+    background-position: center;
     width: 20px;
     height: 20px;
     outline: none;
     border-radius: 4px;
 }
 
-.button-tick{
+.button-tick {
     background-image: url(images/icon-tick.png);
     background-size: 20px 20px;
     background-repeat: no-repeat;
-    background-position: center;   
+    background-position: center;
     width: 20px;
     height: 20px;
     outline: none;
@@ -91,40 +91,41 @@ body{
     color: white;
 }
 
-#task-list{
-    font-size:20px;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-
-h2, h3 {
+#task-list h2 {
     padding-top: 40px;
-    font-size:20px;
+    font-size: 20px;
     font-weight: bold;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
-#task-completed {
-    font-size:15px;
+#task-completed h3 {
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
 }
 
-.completed{
+.completed {
     text-decoration: line-through;
 }
 
-hr.line{
+.time {
+    font-size: 12px;
+}
+
+hr.line {
     border-bottom: 1px solid white;
     padding: 0px;
     margin: 5px 0;
 }
 
-.task-delete{
+.task-delete {
     display: flex;
     justify-content: flex-end;
 }
 
-.task-delete button{
-    margin-top: 15px;
+.task-delete button {
+    margin-top: 35px;
     font-size: 13px;
     width: auto;
     height: auto;
