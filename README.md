@@ -1,4 +1,4 @@
-# To do
+# To do Application
 
 A simple to-do list application to help you manage your task.
 
@@ -11,7 +11,7 @@ A simple to-do list application to help you manage your task.
 -   Add list
 -   Search list
 -   Delete list
--   Mark list
+-   Mark list as complete
 
 ***
 
